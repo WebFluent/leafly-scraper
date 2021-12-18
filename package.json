@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scrape": "node scrapeStrains.js",
-    "extract": "node extractStrains.js",
-    "strains:length": "node -e \"console.log(require('./strains.json').length)\""
+    "scrape:strains": "node scrapeStrains.js",
+    "extract:strains": "node extractStrains.js",
+    "fetch:strains": "node fetchStrains.js",
+    "fetch:products": "node fetchProducts.js",
+    "strains:length": "node -e \"console.log(require('./fetched-strains.json').length)\""
   },
   "author": "",
   "license": "ISC",

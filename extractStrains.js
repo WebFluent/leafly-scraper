@@ -1,5 +1,5 @@
 const fs = require('fs');
-const strains = require('./strains.json');
+const strains = require('./fetched-strains.json');
 const { v4: uuidv4 } = require('uuid');
 
 let newArr = [];
