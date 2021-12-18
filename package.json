@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "scrape": "node scrapeStrains.js",
+    "extract": "node extractStrains.js",
+    "strains:length": "node -e \"console.log(require('./strains.json').length)\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
-    "puppeteer": "^13.0.0"
+    "puppeteer": "^13.0.0",
+    "uuid": "^8.3.2"
   }
 }
